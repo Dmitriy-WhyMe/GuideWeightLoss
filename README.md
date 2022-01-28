@@ -1,3 +1,5 @@
+# GuideWeightLoss
+![alt text](screen.png "GuideWeightLoss")
 # GulpAssembly
 npm i
 gulp start
