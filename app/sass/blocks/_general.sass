@@ -1,0 +1,224 @@
+// main page elements
+body
+	font-size: 16px
+	color: $text
+	font-family: 'Montserrat', sans-serif
+	font-weight: normal
+	background: white
+	overflow-x: hidden
+	// +scrollbar(10px, auto, $yellow, $gray2, $dark, null)
+
+.page-container
+	max-width: 1920px
+	width: 100%
+	margin: 0 auto
+	overflow: hidden
+
+.container
+	max-width: 1170px
+	width: 100%
+	padding: 0
+	margin: 0 auto
+	+mq($max-width: 1200px)
+		padding: 0 15px
+		max-width: 100%
+	+mq($max-width: 575px)
+		padding: 0 10px
+
+.flex
+	display: flex
+
+.btn
+	display: flex
+	justify-content: center
+	align-items: center
+	font-weight: bold
+	font-size: 16px
+	line-height: 24px
+	color: white
+	border-radius: 250px
+	height: 55px
+	width: 100%
+
+h2
+	font-weight: 600
+	font-size: 38px
+	line-height: 44px
+//section baner
+.baner
+	padding-top: 101px
+	padding-bottom: 104px
+	background-image: url(../img/banerss.png)
+	background-position: center
+	background-repeat: no-repeat
+	h1
+		font-weight: bold
+		font-size: 45px
+		line-height: 52px
+		max-width: 528px
+		margin-bottom: 24px
+		span
+			color: $green
+	p
+		max-width: 468px
+		margin-bottom: 31px
+	.btn
+		max-width: 171px
+		background: $green
+
+//section problem
+.problem 
+	margin-top: 58px
+	h2
+		text-align: center
+		margin-bottom: 38px
+	.flex
+		gap: 30px
+		&__block
+			padding-bottom: 34px
+			padding-left: 19px
+			padding-right: 19px
+			padding-top: 36px
+			max-width: 370px
+			width: 100%
+			border-radius: $radius
+			box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.14)
+			display: flex
+			flex-direction: column
+			align-items: center
+			gap: 17px
+			.flex__number
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 77px
+				height: 77px
+				border-radius: 100%
+				color: white
+				background: $green
+				font-weight: bold
+				font-size: 30px
+				line-height: 26px
+			p
+				text-align: center
+//section just
+.just
+	margin-top: 60px
+	padding-top: 60px
+	padding-bottom: 64px
+	background: #F8F8F8
+	.container
+		gap: 30px
+		align-items: center
+		img
+			border-radius: $radius
+			max-width: 270px
+			width: 100%
+		.just__text
+			h2
+				margin-bottom: 12px
+			p
+				margin-bottom: 23px
+				max-width: 569px
+			.btn
+				background: $green
+				max-width: 171px
+//section buy
+.buy
+	margin-top: 64px
+	padding-top: 51px
+	padding-bottom: 52px
+	background-image: url(../img/unsplash_nTZOILVZuOg.png)
+	background-position: center
+	background-repeat: no-repeat
+	.container
+		justify-content: space-between
+		align-items: center
+		.buy__text
+			.buy__title
+				font-weight: 600
+				font-size: 38px
+				line-height: 44px
+				color: white
+				margin-bottom: 12px
+			p
+				font-weight: 600
+				font-size: 16px
+				line-height: 26px
+				color: white
+				max-width: 820px
+		.btn
+			background: #65A332
+			max-width: 194px
+//section booklet
+.booklet
+	margin-top: 60px
+	margin-bottom: 60px
+	.container
+		justify-content: space-between
+		align-items: center
+		.booklet__text 
+			.booklet__title
+				font-weight: 600
+				font-size: 38px
+				line-height: 44px
+				margin-bottom: 12px
+			p
+				margin-bottom: 23px
+				max-width: 568px
+			.btn
+				max-width: 171px
+				background: $green
+		img
+			border-radius: $radius
+			max-width: 570px
+			width: 100%
+//section science
+.science
+	margin-bottom: 55px
+	background-image: url(../img/unsplash_KPDbRyFOTnE.png)
+	background-position: top
+	background-repeat: no-repeat
+	padding-top: 99px
+	.container
+		padding: 51px 70px 51px 54px
+		background: white
+		box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.14)
+		border-radius: $radius
+		h2
+			margin-bottom: 12px
+		p
+			margin-bottom: 12px
+		.btn
+			margin-top: 23px
+			background: $green
+			max-width: 171px
+//section before
+.before
+	margin-bottom: 60px
+	h2 
+		margin-bottom: 32px
+	.flex
+		flex-wrap: wrap
+		gap: 32px
+		&__block
+			position: relative
+			display: flex
+			gap: 13px
+			img
+				max-width: 177px
+				width: 100%
+			.arrow 
+				position: absolute
+				margin: auto
+				top: 0
+				left: 0
+				bottom: 0
+				right: 0
+				background: white
+				height: 46px
+				width: 46px
+				border-radius: 100%
+				display: flex
+				align-items: center
+				justify-content: center

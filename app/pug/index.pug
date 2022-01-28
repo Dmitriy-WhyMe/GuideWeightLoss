@@ -1,0 +1,92 @@
+- var img = 'img/';
+
+doctype
+html
+	include blocks/head.pug
+		title
+	body
+		include blocks/header.pug
+
+
+		main.page-container
+			section.baner
+				.container
+					h1 2 Step Guide to losing <span>up to 1.8 kg</span> per week
+					p For just $25 you will receive an information booklet which will tell you everything you need to do to lose between 0.8 to 1.8 kg per week
+					.btn Learn more
+			section.problem 
+				.container
+					h2 Heading the problem
+					.flex 
+						.flex__block 
+							.flex__number 01
+							p Losing weight often involves intense amounts of exercise as well as strict diet plans which require full time concentration and extra expense, it’s hard to stay motivated during this process especially when the results don’t seem to appear even when you’ve done everything according to ‘the plan’.
+						.flex__block 
+							.flex__number 02
+							p All of this combined with the feelings of hunger and weakness which can occur when attempting to lose weight makes it hard for some to reach their desired weight goals.
+						.flex__block 
+							.flex__number 03
+							p If you’ve tried to lose weight before and you have lost hope or if you simply don’t want to hit the gym every day to achieve results or if specific diet plans like Keto or Atkins don’t work for you then you don’t have to do them.
+			section.just 
+				.container(class="flex")
+					img(src=img+"unsplash_dRFCsd2Q3Sc.png", alt="")
+					img(src=img+"unsplash_wBuPCQiweuA.png", alt="")
+					.just__text 
+						h2 For just $25
+						p you will receive an information booklet which will tell you everything you need to do to lose between 0.8 to 1.8 kg per week, with 1.2 kg being lost on average in clinical studies. Once you’ve achieved your weight goals you’ll be able to maintain your weight indefinitely forever, with no negative side effects in a totally natural way.
+						a.btn(href="#") Learn more
+			section.buy 
+				.container(class="flex")
+					.buy__text 
+						.buy__title Buy now 
+						p Buy now to receive your simple 2 Step Guide to losing up to 1.8 kg per week. finitely forever, with no negative side effects in a totally natural way.
+					a.btn(href="#") Buy now
+			section.booklet 
+				.container(class="flex")
+					.booklet__text 
+						.booklet__title The Science (Pre-Booklet)
+						p Scientists currently believe that the way to lose weight is to simply have a ‘negative calorie balance’ this means that if you consume fewer calories than your body needs the body will try and make up for this negative imbalance by burning fat stored in fat cells, known as ‘depot fat’. It sounds pretty simple and should be easy to achieve in theory but in real life, we know that this isn’t the whole story and for some people it simply doesn’t work like that, no matter how hard you try. 
+						a.btn(href="#") Learn more
+					img(src=img+"unsplash_gJtDg6WfMlQ.png", alt="")
+			section.science 
+				.container
+					h2 The Science
+					p Fat catabolism, as it’s called, is the process of turning stored fat or tryglycerides into glycerol and long chain fatty acids. These long chain fatty acids are then broken down by a process called B-oxidation where the long carbon chain is fragmented into units containing two carbon atoms each. Before this can happen the long-chain carbon needs to be activated into it’s high energy Coenzyme A ester by reacting the acid with ATP and Coenzyme A. 
+					p A subsequent cleavage at the B carbon atom of this long carbon chain by reacting with another molecule of Coenzyme A will spin off a molecule of acetyl-CoA, leaving the original long carbon chain with 2 carbons less but still as a CoA ester. The whole process is then repeated again and again. with each process consuming one molecule of Coenzyme A, until the whole long chain is totally broken down into many fragments of acetyl CoA.
+					a.btn(href="#") Learn more
+			section.before 
+				.container
+					h2 Before and After Photos
+					.flex 
+						.flex__block 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+							.arrow <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.988992 0.499563C0.858158 0.633509 0.784912 0.813322 0.784912 1.00056C0.784912 1.1878 0.858158 1.36762 0.988992 1.50156L8.29849 9.00006L0.988992 16.4971C0.858158 16.631 0.784912 16.8108 0.784912 16.9981C0.784912 17.1853 0.858158 17.3651 0.988992 17.4991C1.05259 17.5644 1.12862 17.6163 1.21261 17.6517C1.29659 17.6872 1.38683 17.7054 1.47799 17.7054C1.56915 17.7054 1.65939 17.6872 1.74338 17.6517C1.82736 17.6163 1.9034 17.5644 1.96699 17.4991L9.73999 9.52356C9.87651 9.3835 9.95292 9.19565 9.95292 9.00006C9.95292 8.80447 9.87651 8.61662 9.73999 8.47656L1.96699 0.501063C1.9034 0.435748 1.82736 0.383834 1.74338 0.348387C1.65939 0.31294 1.56915 0.294678 1.47799 0.294678C1.38683 0.294678 1.29659 0.31294 1.21261 0.348387C1.12862 0.383834 1.05259 0.435748 0.988992 0.501063V0.499563Z" fill="#7C7C7C"/></svg>
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+						.flex__block 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+							.arrow <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.988992 0.499563C0.858158 0.633509 0.784912 0.813322 0.784912 1.00056C0.784912 1.1878 0.858158 1.36762 0.988992 1.50156L8.29849 9.00006L0.988992 16.4971C0.858158 16.631 0.784912 16.8108 0.784912 16.9981C0.784912 17.1853 0.858158 17.3651 0.988992 17.4991C1.05259 17.5644 1.12862 17.6163 1.21261 17.6517C1.29659 17.6872 1.38683 17.7054 1.47799 17.7054C1.56915 17.7054 1.65939 17.6872 1.74338 17.6517C1.82736 17.6163 1.9034 17.5644 1.96699 17.4991L9.73999 9.52356C9.87651 9.3835 9.95292 9.19565 9.95292 9.00006C9.95292 8.80447 9.87651 8.61662 9.73999 8.47656L1.96699 0.501063C1.9034 0.435748 1.82736 0.383834 1.74338 0.348387C1.65939 0.31294 1.56915 0.294678 1.47799 0.294678C1.38683 0.294678 1.29659 0.31294 1.21261 0.348387C1.12862 0.383834 1.05259 0.435748 0.988992 0.501063V0.499563Z" fill="#7C7C7C"/></svg>
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+						.flex__block 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+							.arrow <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.988992 0.499563C0.858158 0.633509 0.784912 0.813322 0.784912 1.00056C0.784912 1.1878 0.858158 1.36762 0.988992 1.50156L8.29849 9.00006L0.988992 16.4971C0.858158 16.631 0.784912 16.8108 0.784912 16.9981C0.784912 17.1853 0.858158 17.3651 0.988992 17.4991C1.05259 17.5644 1.12862 17.6163 1.21261 17.6517C1.29659 17.6872 1.38683 17.7054 1.47799 17.7054C1.56915 17.7054 1.65939 17.6872 1.74338 17.6517C1.82736 17.6163 1.9034 17.5644 1.96699 17.4991L9.73999 9.52356C9.87651 9.3835 9.95292 9.19565 9.95292 9.00006C9.95292 8.80447 9.87651 8.61662 9.73999 8.47656L1.96699 0.501063C1.9034 0.435748 1.82736 0.383834 1.74338 0.348387C1.65939 0.31294 1.56915 0.294678 1.47799 0.294678C1.38683 0.294678 1.29659 0.31294 1.21261 0.348387C1.12862 0.383834 1.05259 0.435748 0.988992 0.501063V0.499563Z" fill="#7C7C7C"/></svg> 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+						.flex__block 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+							.arrow <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.988992 0.499563C0.858158 0.633509 0.784912 0.813322 0.784912 1.00056C0.784912 1.1878 0.858158 1.36762 0.988992 1.50156L8.29849 9.00006L0.988992 16.4971C0.858158 16.631 0.784912 16.8108 0.784912 16.9981C0.784912 17.1853 0.858158 17.3651 0.988992 17.4991C1.05259 17.5644 1.12862 17.6163 1.21261 17.6517C1.29659 17.6872 1.38683 17.7054 1.47799 17.7054C1.56915 17.7054 1.65939 17.6872 1.74338 17.6517C1.82736 17.6163 1.9034 17.5644 1.96699 17.4991L9.73999 9.52356C9.87651 9.3835 9.95292 9.19565 9.95292 9.00006C9.95292 8.80447 9.87651 8.61662 9.73999 8.47656L1.96699 0.501063C1.9034 0.435748 1.82736 0.383834 1.74338 0.348387C1.65939 0.31294 1.56915 0.294678 1.47799 0.294678C1.38683 0.294678 1.29659 0.31294 1.21261 0.348387C1.12862 0.383834 1.05259 0.435748 0.988992 0.501063V0.499563Z" fill="#7C7C7C"/></svg>
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+						.flex__block 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+							.arrow <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.988992 0.499563C0.858158 0.633509 0.784912 0.813322 0.784912 1.00056C0.784912 1.1878 0.858158 1.36762 0.988992 1.50156L8.29849 9.00006L0.988992 16.4971C0.858158 16.631 0.784912 16.8108 0.784912 16.9981C0.784912 17.1853 0.858158 17.3651 0.988992 17.4991C1.05259 17.5644 1.12862 17.6163 1.21261 17.6517C1.29659 17.6872 1.38683 17.7054 1.47799 17.7054C1.56915 17.7054 1.65939 17.6872 1.74338 17.6517C1.82736 17.6163 1.9034 17.5644 1.96699 17.4991L9.73999 9.52356C9.87651 9.3835 9.95292 9.19565 9.95292 9.00006C9.95292 8.80447 9.87651 8.61662 9.73999 8.47656L1.96699 0.501063C1.9034 0.435748 1.82736 0.383834 1.74338 0.348387C1.65939 0.31294 1.56915 0.294678 1.47799 0.294678C1.38683 0.294678 1.29659 0.31294 1.21261 0.348387C1.12862 0.383834 1.05259 0.435748 0.988992 0.501063V0.499563Z" fill="#7C7C7C"/></svg>
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+						.flex__block 
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+							.arrow <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.988992 0.499563C0.858158 0.633509 0.784912 0.813322 0.784912 1.00056C0.784912 1.1878 0.858158 1.36762 0.988992 1.50156L8.29849 9.00006L0.988992 16.4971C0.858158 16.631 0.784912 16.8108 0.784912 16.9981C0.784912 17.1853 0.858158 17.3651 0.988992 17.4991C1.05259 17.5644 1.12862 17.6163 1.21261 17.6517C1.29659 17.6872 1.38683 17.7054 1.47799 17.7054C1.56915 17.7054 1.65939 17.6872 1.74338 17.6517C1.82736 17.6163 1.9034 17.5644 1.96699 17.4991L9.73999 9.52356C9.87651 9.3835 9.95292 9.19565 9.95292 9.00006C9.95292 8.80447 9.87651 8.61662 9.73999 8.47656L1.96699 0.501063C1.9034 0.435748 1.82736 0.383834 1.74338 0.348387C1.65939 0.31294 1.56915 0.294678 1.47799 0.294678C1.38683 0.294678 1.29659 0.31294 1.21261 0.348387C1.12862 0.383834 1.05259 0.435748 0.988992 0.501063V0.499563Z" fill="#7C7C7C"/></svg>
+							img(src=img+"unsplash_kXQ3J7_2fpc.png", alt="")
+			section.buy 
+				.container(class="flex")
+					.buy__text 
+						.buy__title Buy now 
+						p Buy now to receive your simple 2 Step Guide to losing up to 1.8 kg per week. finitely forever, with no negative side effects in a totally natural way.
+					a.btn(href="#") Buy now	
+		include blocks/footer.pug
+		include blocks/scripts.pug
